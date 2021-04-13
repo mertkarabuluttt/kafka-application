@@ -16,7 +16,7 @@ public class CustomDeserializer implements Deserializer<CustomObject> {
     @Override
     public CustomObject deserialize(String topic, byte[] data) {
         ObjectMapper mapper = new ObjectMapper();
-        CustomObject object = null
+        CustomObject object = null;
         try {
             object = mapper.readValue(data, CustomObject.class);
         } catch (Exception exception) {

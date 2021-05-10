@@ -1,7 +1,7 @@
 package Consumer;
 
 
-import Producer.KafkaConstants;
+import Constants.KafkaConstants;
 import org.apache.kafka.clients.consumer.Consumer;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.KafkaConsumer;

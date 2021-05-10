@@ -1,4 +1,4 @@
-package Producer;
+package Constants;
 
 public interface KafkaConstants {
 

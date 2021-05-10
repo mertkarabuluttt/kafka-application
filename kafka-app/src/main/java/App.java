@@ -4,7 +4,7 @@ import org.apache.kafka.clients.consumer.Consumer;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.producer.Producer;
 import Producer.ProducerCreator;
-import Producer.KafkaConstants;
+import Constants.KafkaConstants;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.clients.producer.RecordMetadata;
 import Consumer.ConsumerCreator;

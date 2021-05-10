@@ -1,6 +1,5 @@
 package Producer;
 
-import org.apache.kafka.common.header.Headers;
 import org.apache.kafka.common.serialization.Serializer;
 import pojo.CustomObject;
 import com.fasterxml.jackson.databind.ObjectMapper;

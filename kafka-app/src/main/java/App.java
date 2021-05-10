@@ -3,18 +3,18 @@
 import org.apache.kafka.clients.consumer.Consumer;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.producer.Producer;
-import Producer.ProducerCreator;
-import Constants.KafkaConstants;
+import producer.ProducerCreator;
+import constants.KafkaConstants;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.clients.producer.RecordMetadata;
-import Consumer.ConsumerCreator;
+import consumer.ConsumerCreator;
 
 import java.util.concurrent.ExecutionException;
 
 public class App {
     public static void main(String[] args) {
         runProducer();
-        runConsumer();
+        //runConsumer();
     }
 
     static void runProducer() {

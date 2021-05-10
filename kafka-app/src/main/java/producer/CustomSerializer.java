@@ -1,4 +1,4 @@
-package Producer;
+package producer;
 
 import org.apache.kafka.common.serialization.Serializer;
 import pojo.CustomObject;

@@ -1,7 +1,6 @@
-package Consumer;
+package consumer;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.apache.kafka.common.header.Headers;
 import org.apache.kafka.common.serialization.Deserializer;
 import pojo.CustomObject;
 
